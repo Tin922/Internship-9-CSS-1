@@ -59,3 +59,8 @@
 .header__navigation_list a:hover {
   color: #ff0e50;
 }
+
+.header__search {
+  list-style-type: none;
+  margin-left: 77%;
+}
