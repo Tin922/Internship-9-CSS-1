@@ -47,7 +47,7 @@
   z-index: 5;
 }
 .header__header_box {
-  z-index: -1;
+  color: #fff;
   height: 150px;
   background-color: hsl(313.7, 100%, 6.9%);
 }
