@@ -81,10 +81,13 @@ h2 a:hover {
 }
 .section-feed {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 35%;
   gap: 1rem;
 }
 
+.section-feed__list {
+  width: 100%;
+}
 .section-feed__list a:any-link {
   text-decoration: none;
 }
@@ -128,4 +131,7 @@ h2 a:hover {
   font-weight: 700;
   color: #6a0432;
   line-height: 1.2;
+}
+.cursive {
+  text-transform: italic;
 }

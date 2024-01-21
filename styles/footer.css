@@ -12,7 +12,7 @@
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr) 2fr;
   grid-column-gap: 10px;
 }
 .global-footer__heading {
@@ -37,5 +37,41 @@
   font-size: 0.85rem;
 }
 .global-footer__main-content a:hover {
+  opacity: 0.8;
+}
+.global-footer__brand-text {
+  margin-top: 0.75em;
+  margin-bottom: 2em;
+}
+.slate_logo_footer {
+  max-width: 250px;
+}
+
+.global-footer__social-link {
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+.global-footer__legal {
+  background: #23001b;
+  padding: 1.5em 15px;
+}
+.global-footer__legal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.global-footer__legal-links {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+.global-footer__legal-link a:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+.global-footer__legal-link a:hover {
   opacity: 0.8;
 }
