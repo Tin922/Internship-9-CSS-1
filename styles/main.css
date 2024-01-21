@@ -62,6 +62,7 @@ h2 a:hover {
   font-size: 0.93rem;
   color: #88365b;
   font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 .section-header__subnav-menu a:any-link {
   text-decoration: none;
@@ -74,6 +75,7 @@ h2 a:hover {
 .section-header__view-all {
   display: flex;
   justify-content: end;
+  margin-bottom: 0.5rem;
 }
 
 .section-header__view-all a:any-link {
@@ -165,5 +167,8 @@ h2 a:hover {
   .section-feed-two-column__card-teaser {
     margin-top: 0;
     margin-bottom: 1.5rem;
+  }
+  .section-header__view-all {
+    display: none;
   }
 }
