@@ -55,6 +55,7 @@
 .global-footer__legal {
   background: #23001b;
   padding: 1.5em 15px;
+  font-size: 0.95rem;
 }
 .global-footer__legal-content {
   display: flex;
