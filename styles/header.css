@@ -68,7 +68,7 @@
 }
 
 .header__navigation_list a:any-link {
-  color: #222;
+  color: var(--txt-color);
   text-decoration: none;
 }
 .header__navigation_list a:hover {
