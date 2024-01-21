@@ -44,7 +44,7 @@
   margin-bottom: 2em;
 }
 .slate_logo_footer {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 .global-footer__social-link {
@@ -75,6 +75,9 @@
 }
 .global-footer__legal-link a:hover {
   opacity: 0.8;
+}
+.fa-facebook {
+  margin-right: 0.4rem;
 }
 
 @media (max-width: 768px) {
