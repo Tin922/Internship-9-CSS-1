@@ -1,0 +1,52 @@
+.section-feed-threee-columns {
+  display: grid;
+  grid-template-columns: 45% 25% 30%;
+  margin-top: 1rem;
+}
+.section-feed-three-column__teaser-author {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--txt-color);
+  opacity: 0.8;
+  font-size: 0.7230659372rem;
+  margin-bottom: 0.1em;
+}
+.section-feed-three-column__teaser:any-link {
+  color: var(--txt-color);
+  text-decoration: none;
+}
+.section-feed-three-column__teaser:hover {
+  opacity: 0.8;
+}
+.section-feed-three-column__teaser-headline {
+  font-size: 0.92rem;
+  margin-bottom: 0.8rem;
+}
+
+.section-feed-three-column__card-teaser {
+  position: relative;
+  margin-top: -3.15em;
+  padding: 15px 20px 0 0;
+  width: 75%;
+  background-color: #fff;
+}
+.section-feed-three-column__card-teaser_links {
+  text-decoration: none;
+  color: var(--txt-color);
+}
+.section-feed-three-column__card-byline {
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+.section-feed-three-column__card-headline {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6a0432;
+}
+.section-feed-three-column__teaser-headline a:any-link {
+  text-decoration: none;
+}
+.section-feed__item img:hover {
+  opacity: 0.8;
+}
