@@ -1,3 +1,9 @@
+.desktop-masthead {
+  margin-bottom: 2rem;
+}
+.mobile-masthead {
+  display: none;
+}
 .header__navigation {
   height: 40px;
 }
@@ -138,4 +144,33 @@
   margin: 0.2rem;
   cursor: pointer;
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .desktop-masthead {
+    display: none;
+  }
+  .mobile-masthead {
+    background-color: #23001b;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .mobile-masthead__menu {
+    padding: 15px;
+  }
+  .mobile-masthead__logo {
+    width: 124px;
+    height: 39px;
+  }
+  .mobile-masthead__account a:any-link {
+    padding: 15px;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #ff0e50;
+    text-decoration-thickness: 2px;
+  }
 }
