@@ -147,3 +147,23 @@ h2 a:hover {
 .italic {
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .layout-homepage__container {
+    padding: 0 0.6rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .section-header__subnav-menu {
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+  .section-feed {
+    display: block;
+  }
+  .section-feed-two-column__card-teaser {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+}

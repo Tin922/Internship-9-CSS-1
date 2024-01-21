@@ -76,3 +76,19 @@
 .global-footer__legal-link a:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .global-footer__main-content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .global-footer__legal-content {
+    display: block;
+  }
+  .global-footer__legal-links {
+    margin: 1rem 0;
+  }
+  .global-footer__legal-text {
+    margin: 1rem 0;
+  }
+}

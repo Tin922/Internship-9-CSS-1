@@ -161,6 +161,7 @@
   }
   .mobile-masthead__menu {
     padding: 15px;
+    cursor: pointer;
   }
   .mobile-masthead__logo {
     width: 124px;
@@ -172,5 +173,24 @@
     text-decoration: underline;
     text-decoration-color: #ff0e50;
     text-decoration-thickness: 2px;
+    font-size: 0.8rem;
+  }
+  .mobile-masthead__account a:hover {
+    color: #ff0e50;
+    text-decoration: none;
+  }
+  .fa-bars {
+    padding: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .fa-bars:hover {
+    opacity: 1;
+  }
+  .section-header__view-all {
+    margin-bottom: 1rem;
+  }
+  .section-feed-two-column__card-headline {
+    font-size: 1.4rem;
   }
 }
